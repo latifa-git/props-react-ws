@@ -1,0 +1,7 @@
+.app{
+background-image: -moz-radial-gradient();
+}
+.image{
+border-radius: 50%;
+flex-wrap: wrap;
+}

@@ -1,12 +1,20 @@
 
 import './App.css';
-import Component from "./Profile/Component"
+
+import Profile from './Profile/Profile';
 function App() {
+  const myelement = { fullName :"latifa",  bio:"mpse" , profession:"studiant" }
+
   return (
     <div className="App">
-    <Component/> 
+    <Profile myelementProps={myelement}> 
+    <img className="image" src="/malina.jpg" alt="malina"  />
+    </Profile>
+
     </div>
+    
   );
+  
 }
 
 export default App;
